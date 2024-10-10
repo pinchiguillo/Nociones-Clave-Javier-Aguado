@@ -7,4 +7,6 @@ include_directories(.)
 
 add_executable(Nociones_Clave_Javier_Aguado
     main.cpp
-    main.h)
+    main.h
+        estudiante.cpp
+        persona.cpp)
