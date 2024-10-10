@@ -1,0 +1,3 @@
+C:/Users/pinchiguillo/Documents/GitHub/Nociones-Clave-Javier-Aguado/cmake-build-debug/CMakeFiles/Nociones_Clave_Javier_Aguado.dir
+C:/Users/pinchiguillo/Documents/GitHub/Nociones-Clave-Javier-Aguado/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pinchiguillo/Documents/GitHub/Nociones-Clave-Javier-Aguado/cmake-build-debug/CMakeFiles/rebuild_cache.dir
