@@ -9,7 +9,9 @@ add_executable(Nociones_Clave_Javier_Aguado
     main.cpp
     main.h
         estudiante.cpp
-        persona.cpp)
+        persona.cpp
+        funciones.cpp
+)
 
 include(FetchContent)
 FetchContent_Declare(
