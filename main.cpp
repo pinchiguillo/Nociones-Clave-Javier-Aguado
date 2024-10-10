@@ -3,7 +3,7 @@
 //
 
 #include "main.h"
-
+#include <fmt/core.h>
 #include <iostream>
 #include "funciones.h"
 
@@ -27,6 +27,10 @@ int main() {
 
     std::cout << "Área del círculo: " << AREA_CIRCULO(5) << std::endl;
     std::cout << "PI: " << PI << std::endl;
+
+    fmt::print("Using fmt library\n");
+    fmt::print("La suma de 5 y 3 es: {}\n", suma(5, 3));
+    fmt::print("La resta de 5 y 3 es: {}\n", resta(5, 3));
 
     return 0;
 }
