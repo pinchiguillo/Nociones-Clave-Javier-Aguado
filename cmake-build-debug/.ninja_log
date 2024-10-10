@@ -1,3 +1,18 @@
 # ninja log v6
-2	191	7502576733137657	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/main.cpp.obj	4cce1f94882c9cf6
-193	250	7502576735042664	Nociones_Clave_Javier_Aguado.exe	52409bb8af70a7ad
+12	201	7502601386666083	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/main.cpp.obj	1bf2056e2afeb6c2
+16	1458	7502598253972398	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	574e7cc008d3b89d
+23	244	7502598254052406	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/estudiante.cpp.obj	dc878153e4ed0b0c
+1966	2026	7502598273482399	Nociones_Clave_Javier_Aguado.exe	8a8015219f967a60
+26	189	7502598254077400	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/persona.cpp.obj	fd97e87d555a3ab
+18	841	7502598254002402	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	9947ea0ec8cf9924
+6	695	7502603507542206	build.ninja	3b379ae13bc77975
+1458	1966	7502598268402403	_deps/fmt-build/libfmtd.a	bfd7d2ab56e2c14
+13	51	7502600254960127	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/funciones.cpp.obj	ee27e673aa2a4fd2
+2	670	7502603507542206	build.ninja	3b379ae13bc77975
+11	47	7502603508072210	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/funciones.cpp.obj	ee27e673aa2a4fd2
+10	196	7502603642026070	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/main.cpp.obj	1bf2056e2afeb6c2
+197	255	7502603643891075	Nociones_Clave_Javier_Aguado.exe	ff367b2e3d84c9f1
+10	209	7502604423885851	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/main.cpp.obj	1bf2056e2afeb6c2
+209	270	7502604425880851	Nociones_Clave_Javier_Aguado.exe	ff367b2e3d84c9f1
+5	200	7502604672585854	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/main.cpp.obj	1bf2056e2afeb6c2
+200	267	7502604674540850	Nociones_Clave_Javier_Aguado.exe	ff367b2e3d84c9f1
