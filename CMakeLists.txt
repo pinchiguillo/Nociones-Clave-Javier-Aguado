@@ -6,11 +6,16 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Nociones_Clave_Javier_Aguado
-    main.cpp
-    main.h
-        estudiante.cpp
-        persona.cpp
-        funciones.cpp
+    "Proyecto 1/main.cpp"
+        "Proyecto 1/main.h"
+        "Proyecto 1/estudiante.cpp"
+        "Proyecto 1/persona.cpp"
+        "Proyecto 1/funciones.cpp"
+)
+
+add_executable(Nociones_Clave_Javier_Aguado2
+        "Proyecto 2/main2.cpp"
+        "Proyecto 2/main2.h"
 )
 
 include(FetchContent)
