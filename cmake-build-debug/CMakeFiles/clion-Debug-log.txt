@@ -3,6 +3,6 @@
 -- Build type: Debug
 -- CXX_STANDARD: 14
 -- Required features: cxx_variadic_templates
--- Configuring done (1.0s)
+-- Configuring done (0.5s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/pinchiguillo/Documents/GitHub/Nociones-Clave-Javier-Aguado/cmake-build-debug

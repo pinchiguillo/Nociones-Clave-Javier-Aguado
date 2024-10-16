@@ -15,6 +15,23 @@ add_executable(Nociones_Clave_Javier_Aguado
 
 )
 
-#FetchContent_MakeAvailable(fmt)
+add_executable(Nociones_Clave_Javier_Aguado2
+    "Proyecto 2/main.cpp"
+    "Proyecto 2/main.h"
+        "Proyecto 2/funciones.h"
+        "Proyecto 2/funciones.cpp"
+        "Proyecto 2/nuevo.cpp"
+)
 
-#target_link_libraries(Nociones_Clave_Javier_Aguado PRIVATE fmt::fmt)
+include(FetchContent)
+FetchContent_Declare(
+        fmt
+        GIT_REPOSITORY https://github.com/fmtlib/fmt.git
+        GIT_TAG        7.1.3
+)
+
+FetchContent_MakeAvailable(fmt)
+target_link_libraries(Nociones_Clave_Javier_Aguado2 PRIVATE fmt::fmt)
+
+add_library(matematicas STATIC "Proyecto 2/matematicas.cpp")
+add_library(matematicas_s SHARED "Proyecto 2/matematicas.cpp")

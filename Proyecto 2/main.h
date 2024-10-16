@@ -7,7 +7,7 @@
 
 
 
-class main2 {
+class main {
 
 };
 

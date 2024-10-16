@@ -172,7 +172,7 @@ std::cout << "Grado: " << grado << std::endl;
 ```
 Ahora puedes crear objetos de la clase Estudiante en tu función int main() y llamar a la función mostrarDetalles().
 
-Entorno de desarrollo y archivo CMakeLists.txt
+## Entorno de desarrollo y archivo CMakeLists.txt
 
 Nuevo proyecto en CLion: Abre CLion y crea un nuevo proyecto. CLion creará automáticamente un archivo main.cpp con un programa de "Hola Mundo" y un archivo CMakeLists.txt. Puedes ejecutar este programa para verificar que todo está funcionando correctamente.
 Configurar CMakeLists.txt: Supongamos que quieres agregar la biblioteca fmt a tu proyecto. Agregarías las siguientes líneas a tu archivo CMakeLists.txt:
