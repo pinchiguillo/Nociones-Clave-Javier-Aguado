@@ -8,20 +8,13 @@ include_directories(.)
 add_executable(Nociones_Clave_Javier_Aguado
     "Proyecto 1/main.cpp"
         "Proyecto 1/main.h"
+        "Proyecto 1/Persona.cpp"
+        "Proyecto 1/Persona.h"
+        "Proyecto 1/Estudiante.cpp"
+        "Proyecto 1/Estudiante.h"
+
 )
 
-add_executable(Nociones_Clave_Javier_Aguado2
-        "Proyecto 2/main2.cpp"
-        "Proyecto 2/main2.h"
-)
+#FetchContent_MakeAvailable(fmt)
 
-include(FetchContent)
-FetchContent_Declare(
-        fmt
-        GIT_REPOSITORY https://github.com/fmtlib/fmt.git
-        GIT_TAG        7.1.3
-)
-
-FetchContent_MakeAvailable(fmt)
-
-target_link_libraries(Nociones_Clave_Javier_Aguado PRIVATE fmt::fmt)
+#target_link_libraries(Nociones_Clave_Javier_Aguado PRIVATE fmt::fmt)

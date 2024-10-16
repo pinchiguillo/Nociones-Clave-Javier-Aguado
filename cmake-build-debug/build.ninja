@@ -47,12 +47,27 @@ cmake_ninja_workdir = C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Jav
 #############################################
 # Order-only phony target for Nociones_Clave_Javier_Aguado
 
-build cmake_object_order_depends_target_Nociones_Clave_Javier_Aguado: phony || cmake_object_order_depends_target_fmt
+build cmake_object_order_depends_target_Nociones_Clave_Javier_Aguado: phony || .
 
 build CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\main.cpp.obj: CXX_COMPILER__Nociones_Clave_Javier_Aguado_unscanned_Debug C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\Proyecto$ 1\main.cpp || cmake_object_order_depends_target_Nociones_Clave_Javier_Aguado
-  DEFINES = -DFMT_LOCALE
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
-  INCLUDES = -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\. -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\cmake-build-debug\_deps\fmt-src\include
+  INCLUDES = -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\.
+  OBJECT_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir
+  OBJECT_FILE_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1
+  TARGET_COMPILE_PDB = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\
+  TARGET_PDB = Nociones_Clave_Javier_Aguado.pdb
+
+build CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\persona.cpp.obj: CXX_COMPILER__Nociones_Clave_Javier_Aguado_unscanned_Debug C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\Proyecto$ 1\persona.cpp || cmake_object_order_depends_target_Nociones_Clave_Javier_Aguado
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
+  INCLUDES = -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\.
+  OBJECT_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir
+  OBJECT_FILE_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1
+  TARGET_COMPILE_PDB = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\
+  TARGET_PDB = Nociones_Clave_Javier_Aguado.pdb
+
+build CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\estudiante.cpp.obj: CXX_COMPILER__Nociones_Clave_Javier_Aguado_unscanned_Debug C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\Proyecto$ 1\estudiante.cpp || cmake_object_order_depends_target_Nociones_Clave_Javier_Aguado
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
+  INCLUDES = -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\.
   OBJECT_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir
   OBJECT_FILE_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1
   TARGET_COMPILE_PDB = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\
@@ -66,10 +81,10 @@ build CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\main.cpp.obj: CXX_C
 #############################################
 # Link the executable Nociones_Clave_Javier_Aguado.exe
 
-build Nociones_Clave_Javier_Aguado.exe: CXX_EXECUTABLE_LINKER__Nociones_Clave_Javier_Aguado_Debug CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\main.cpp.obj | _deps\fmt-build\fmtd.lib || _deps\fmt-build\fmtd.lib
+build Nociones_Clave_Javier_Aguado.exe: CXX_EXECUTABLE_LINKER__Nociones_Clave_Javier_Aguado_Debug CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\main.cpp.obj CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\persona.cpp.obj CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\estudiante.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = _deps\fmt-build\fmtd.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -77,43 +92,6 @@ build Nociones_Clave_Javier_Aguado.exe: CXX_EXECUTABLE_LINKER__Nociones_Clave_Ja
   TARGET_FILE = Nociones_Clave_Javier_Aguado.exe
   TARGET_IMPLIB = Nociones_Clave_Javier_Aguado.lib
   TARGET_PDB = Nociones_Clave_Javier_Aguado.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Nociones_Clave_Javier_Aguado2
-
-
-#############################################
-# Order-only phony target for Nociones_Clave_Javier_Aguado2
-
-build cmake_object_order_depends_target_Nociones_Clave_Javier_Aguado2: phony || .
-
-build CMakeFiles\Nociones_Clave_Javier_Aguado2.dir\Proyecto_2\main2.cpp.obj: CXX_COMPILER__Nociones_Clave_Javier_Aguado2_unscanned_Debug C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\Proyecto$ 2\main2.cpp || cmake_object_order_depends_target_Nociones_Clave_Javier_Aguado2
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
-  INCLUDES = -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\.
-  OBJECT_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado2.dir\Proyecto_2
-  TARGET_COMPILE_PDB = CMakeFiles\Nociones_Clave_Javier_Aguado2.dir\
-  TARGET_PDB = Nociones_Clave_Javier_Aguado2.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Nociones_Clave_Javier_Aguado2
-
-
-#############################################
-# Link the executable Nociones_Clave_Javier_Aguado2.exe
-
-build Nociones_Clave_Javier_Aguado2.exe: CXX_EXECUTABLE_LINKER__Nociones_Clave_Javier_Aguado2_Debug CMakeFiles\Nociones_Clave_Javier_Aguado2.dir\Proyecto_2\main2.cpp.obj
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Nociones_Clave_Javier_Aguado2.dir\
-  TARGET_FILE = Nociones_Clave_Javier_Aguado2.exe
-  TARGET_IMPLIB = Nociones_Clave_Javier_Aguado2.lib
-  TARGET_PDB = Nociones_Clave_Javier_Aguado2.pdb
 
 
 #############################################
@@ -139,88 +117,9 @@ build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
 # =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/pinchiguillo/Documents/GitHub/Nociones-Clave-Javier-Aguado/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target fmt
-
-
-#############################################
-# Order-only phony target for fmt
-
-build cmake_object_order_depends_target_fmt: phony || .
-
-build _deps\fmt-build\CMakeFiles\fmt.dir\src\format.cc.obj: CXX_COMPILER__fmt_unscanned_Debug C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\cmake-build-debug\_deps\fmt-src\src\format.cc || cmake_object_order_depends_target_fmt
-  DEFINES = -DFMT_LOCALE
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++14 -MDd -Zi
-  INCLUDES = -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\. -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\cmake-build-debug\_deps\fmt-src\include
-  OBJECT_DIR = _deps\fmt-build\CMakeFiles\fmt.dir
-  OBJECT_FILE_DIR = _deps\fmt-build\CMakeFiles\fmt.dir\src
-  TARGET_COMPILE_PDB = _deps\fmt-build\CMakeFiles\fmt.dir\fmt.pdb
-  TARGET_PDB = _deps\fmt-build\fmtd.pdb
-
-build _deps\fmt-build\CMakeFiles\fmt.dir\src\os.cc.obj: CXX_COMPILER__fmt_unscanned_Debug C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\cmake-build-debug\_deps\fmt-src\src\os.cc || cmake_object_order_depends_target_fmt
-  DEFINES = -DFMT_LOCALE
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++14 -MDd -Zi
-  INCLUDES = -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\. -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\cmake-build-debug\_deps\fmt-src\include
-  OBJECT_DIR = _deps\fmt-build\CMakeFiles\fmt.dir
-  OBJECT_FILE_DIR = _deps\fmt-build\CMakeFiles\fmt.dir\src
-  TARGET_COMPILE_PDB = _deps\fmt-build\CMakeFiles\fmt.dir\fmt.pdb
-  TARGET_PDB = _deps\fmt-build\fmtd.pdb
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target fmt
-
-
-#############################################
-# Link the static library _deps\fmt-build\fmtd.lib
-
-build _deps\fmt-build\fmtd.lib: CXX_STATIC_LIBRARY_LINKER__fmt_Debug _deps\fmt-build\CMakeFiles\fmt.dir\src\format.cc.obj _deps\fmt-build\CMakeFiles\fmt.dir\src\os.cc.obj
-  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
-  LINK_FLAGS = /machine:x64
-  OBJECT_DIR = _deps\fmt-build\CMakeFiles\fmt.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\fmt-build\CMakeFiles\fmt.dir\fmt.pdb
-  TARGET_FILE = _deps\fmt-build\fmtd.lib
-  TARGET_PDB = _deps\fmt-build\fmtd.pdb
-
-
-#############################################
-# Utility command for edit_cache
-
-build _deps\fmt-build\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\cmake-build-debug\_deps\fmt-build && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build _deps\fmt-build\edit_cache: phony _deps\fmt-build\CMakeFiles\edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build _deps\fmt-build\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\cmake-build-debug\_deps\fmt-build && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado -BC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build _deps\fmt-build\rebuild_cache: phony _deps\fmt-build\CMakeFiles\rebuild_cache.util
-
-# =============================================================================
 # Target aliases.
 
 build Nociones_Clave_Javier_Aguado: phony Nociones_Clave_Javier_Aguado.exe
-
-build Nociones_Clave_Javier_Aguado2: phony Nociones_Clave_Javier_Aguado2.exe
-
-build fmt: phony _deps\fmt-build\fmtd.lib
-
-build fmtd.lib: phony _deps\fmt-build\fmtd.lib
 
 # =============================================================================
 # Folder targets.
@@ -230,14 +129,7 @@ build fmtd.lib: phony _deps\fmt-build\fmtd.lib
 #############################################
 # Folder: C:/Users/pinchiguillo/Documents/GitHub/Nociones-Clave-Javier-Aguado/cmake-build-debug
 
-build all: phony Nociones_Clave_Javier_Aguado.exe Nociones_Clave_Javier_Aguado2.exe _deps\fmt-build\all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/pinchiguillo/Documents/GitHub/Nociones-Clave-Javier-Aguado/cmake-build-debug/_deps/fmt-build
-
-build _deps\fmt-build\all: phony _deps\fmt-build\fmtd.lib
+build all: phony Nociones_Clave_Javier_Aguado.exe
 
 # =============================================================================
 # Built-in targets
@@ -246,14 +138,14 @@ build _deps\fmt-build\all: phony _deps\fmt-build\fmtd.lib
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseArguments.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CheckSymbolExists.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\FetchContent.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\FindGit.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\FindPackageMessage.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\GNUInstallDirs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\CMakeLists.txt CMakeCache.txt CMakeFiles\3.29.6\CMakeCCompiler.cmake CMakeFiles\3.29.6\CMakeCXXCompiler.cmake CMakeFiles\3.29.6\CMakeRCCompiler.cmake CMakeFiles\3.29.6\CMakeSystem.cmake _deps\fmt-src\CMakeLists.txt _deps\fmt-src\support\cmake\JoinPaths.cmake _deps\fmt-src\support\cmake\cxx14.cmake
+build build.ninja: RERUN_CMAKE | C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\CMakeLists.txt CMakeCache.txt CMakeFiles\3.29.6\CMakeCCompiler.cmake CMakeFiles\3.29.6\CMakeCXXCompiler.cmake CMakeFiles\3.29.6\CMakeRCCompiler.cmake CMakeFiles\3.29.6\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseArguments.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CheckSymbolExists.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\FetchContent.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\FindGit.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\FindPackageMessage.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\GNUInstallDirs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\CMakeLists.txt CMakeCache.txt CMakeFiles\3.29.6\CMakeCCompiler.cmake CMakeFiles\3.29.6\CMakeCXXCompiler.cmake CMakeFiles\3.29.6\CMakeRCCompiler.cmake CMakeFiles\3.29.6\CMakeSystem.cmake _deps\fmt-src\CMakeLists.txt _deps\fmt-src\support\cmake\JoinPaths.cmake _deps\fmt-src\support\cmake\cxx14.cmake: phony
+build C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.2.2\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\CMakeLists.txt CMakeCache.txt CMakeFiles\3.29.6\CMakeCCompiler.cmake CMakeFiles\3.29.6\CMakeCXXCompiler.cmake CMakeFiles\3.29.6\CMakeRCCompiler.cmake CMakeFiles\3.29.6\CMakeSystem.cmake: phony
 
 
 #############################################
