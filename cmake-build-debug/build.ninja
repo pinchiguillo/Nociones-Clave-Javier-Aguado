@@ -58,33 +58,6 @@ build CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\main.cpp.obj: CXX_C
   TARGET_COMPILE_PDB = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\
   TARGET_PDB = Nociones_Clave_Javier_Aguado.pdb
 
-build CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\estudiante.cpp.obj: CXX_COMPILER__Nociones_Clave_Javier_Aguado_unscanned_Debug C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\Proyecto$ 1\estudiante.cpp || cmake_object_order_depends_target_Nociones_Clave_Javier_Aguado
-  DEFINES = -DFMT_LOCALE
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
-  INCLUDES = -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\. -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\cmake-build-debug\_deps\fmt-src\include
-  OBJECT_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir
-  OBJECT_FILE_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1
-  TARGET_COMPILE_PDB = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\
-  TARGET_PDB = Nociones_Clave_Javier_Aguado.pdb
-
-build CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\persona.cpp.obj: CXX_COMPILER__Nociones_Clave_Javier_Aguado_unscanned_Debug C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\Proyecto$ 1\persona.cpp || cmake_object_order_depends_target_Nociones_Clave_Javier_Aguado
-  DEFINES = -DFMT_LOCALE
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
-  INCLUDES = -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\. -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\cmake-build-debug\_deps\fmt-src\include
-  OBJECT_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir
-  OBJECT_FILE_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1
-  TARGET_COMPILE_PDB = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\
-  TARGET_PDB = Nociones_Clave_Javier_Aguado.pdb
-
-build CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\funciones.cpp.obj: CXX_COMPILER__Nociones_Clave_Javier_Aguado_unscanned_Debug C$:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\Proyecto$ 1\funciones.cpp || cmake_object_order_depends_target_Nociones_Clave_Javier_Aguado
-  DEFINES = -DFMT_LOCALE
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
-  INCLUDES = -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\. -IC:\Users\pinchiguillo\Documents\GitHub\Nociones-Clave-Javier-Aguado\cmake-build-debug\_deps\fmt-src\include
-  OBJECT_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir
-  OBJECT_FILE_DIR = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1
-  TARGET_COMPILE_PDB = CMakeFiles\Nociones_Clave_Javier_Aguado.dir\
-  TARGET_PDB = Nociones_Clave_Javier_Aguado.pdb
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Nociones_Clave_Javier_Aguado
@@ -93,7 +66,7 @@ build CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\funciones.cpp.obj: 
 #############################################
 # Link the executable Nociones_Clave_Javier_Aguado.exe
 
-build Nociones_Clave_Javier_Aguado.exe: CXX_EXECUTABLE_LINKER__Nociones_Clave_Javier_Aguado_Debug CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\main.cpp.obj CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\estudiante.cpp.obj CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\persona.cpp.obj CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\funciones.cpp.obj | _deps\fmt-build\fmtd.lib || _deps\fmt-build\fmtd.lib
+build Nociones_Clave_Javier_Aguado.exe: CXX_EXECUTABLE_LINKER__Nociones_Clave_Javier_Aguado_Debug CMakeFiles\Nociones_Clave_Javier_Aguado.dir\Proyecto_1\main.cpp.obj | _deps\fmt-build\fmtd.lib || _deps\fmt-build\fmtd.lib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = _deps\fmt-build\fmtd.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

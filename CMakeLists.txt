@@ -8,9 +8,6 @@ include_directories(.)
 add_executable(Nociones_Clave_Javier_Aguado
     "Proyecto 1/main.cpp"
         "Proyecto 1/main.h"
-        "Proyecto 1/estudiante.cpp"
-        "Proyecto 1/persona.cpp"
-        "Proyecto 1/funciones.cpp"
 )
 
 add_executable(Nociones_Clave_Javier_Aguado2
