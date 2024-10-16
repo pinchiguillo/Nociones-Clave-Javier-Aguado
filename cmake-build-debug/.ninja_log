@@ -1,17 +1,17 @@
 # ninja log v6
 12	868	7504576938922496	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	5b33c772789b3030
 10	356	7502617507681134	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/main.cpp.obj	836f40d67dd4658f
-27	63	7502615443641033	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/funciones.cpp.obj	a0b3488cd904262
-906	1135	7504576947857472	Nociones_Clave_Javier_Aguado.exe	53b3ab4211f65251
-18	243	7502615455801039	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/estudiante.cpp.obj	d7ab38bdca1eba75
+5	281	7506872208954261	Nociones_Clave_Javier_Aguado.exe	53b3ab4211f65251
 15	651	7504576938947466	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	61165f25fdff589b
-21	159	7502615455831035	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/persona.cpp.obj	fb21550b32892795
-6	603	7504579159537485	build.ninja	3b379ae13bc77975
+2	119	7506873279364410	build.ninja	3b379ae13bc77975
+25	442	7506872582151698	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/Proyecto_1/persona.cpp.obj	4f45b4a40622a129
+28	437	7506872582181692	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/Proyecto_1/funciones.cpp.obj	c044a6a0dc93723d
 868	906	7504576947477465	_deps/fmt-build/fmtd.lib	15c3ac82f246cfa6
-24	419	7504576939037475	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/Proyecto_1/funciones.cpp.obj	e5a23106f47c6e68
-21	433	7504576939012475	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/Proyecto_1/persona.cpp.obj	d4947748e73b45b5
-19	512	7504576938987479	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/Proyecto_1/estudiante.cpp.obj	23f8d1d3e6582a6b
+22	565	7506872582121698	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/Proyecto_1/estudiante.cpp.obj	c6ddfa8e3032aaea
 17	553	7504576938967477	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/Proyecto_1/main.cpp.obj	588d8a19ddbc81e2
-2	563	7504579159537485	build.ninja	3b379ae13bc77975
 16	323	7504579160197466	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/Proyecto_2/main2.cpp.obj	1e7bcd4a1418e963
-324	421	7504579163272472	Nociones_Clave_Javier_Aguado.exe	b8bb572cbfe3440f
+4	600	7506873279364410	build.ninja	3b379ae13bc77975
+17	145	7506873280079412	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/Proyecto_1/funciones.cpp.obj	e5a23106f47c6e68
+14	149	7506873280054410	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/Proyecto_1/persona.cpp.obj	d4947748e73b45b5
+12	237	7506873280029424	CMakeFiles/Nociones_Clave_Javier_Aguado.dir/Proyecto_1/estudiante.cpp.obj	23f8d1d3e6582a6b
+237	327	7506873282284411	Nociones_Clave_Javier_Aguado.exe	53b3ab4211f65251
